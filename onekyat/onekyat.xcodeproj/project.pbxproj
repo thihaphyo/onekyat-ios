@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1D29211D14F6264F6337167 /* Pods_onekyat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14670A0FABC06DDB290701F5 /* Pods_onekyat.framework */; };
+		D451819927AD6213007C700B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451819827AD6213007C700B /* AppDelegate.swift */; };
+		D451819D27AD6213007C700B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451819C27AD6213007C700B /* ViewController.swift */; };
+		D45181A027AD6213007C700B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D451819E27AD6213007C700B /* Main.storyboard */; };
+		D45181A227AD6215007C700B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45181A127AD6215007C700B /* Assets.xcassets */; };
+		D45181A527AD6215007C700B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45181A327AD6215007C700B /* LaunchScreen.storyboard */; };
+		D45181C127AD98D2007C700B /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45181C027AD98D2007C700B /* Data.framework */; };
+		D45181C227AD98D2007C700B /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45181C027AD98D2007C700B /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D45181D927AD9997007C700B /* CommonExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45181D827AD9996007C700B /* CommonExtensions.framework */; };
+		D45181DA27AD9997007C700B /* CommonExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45181D827AD9996007C700B /* CommonExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D451821827AD9AF7007C700B /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D451821727AD9AF7007C700B /* CommonUI.framework */; };
+		D451821927AD9AF7007C700B /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D451821727AD9AF7007C700B /* CommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D451821B27AD9AFD007C700B /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D451821A27AD9AFD007C700B /* Utilities.framework */; };
+		D451821C27AD9AFD007C700B /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D451821A27AD9AFD007C700B /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D45181C327AD98D2007C700B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D451821927AD9AF7007C700B /* CommonUI.framework in Embed Frameworks */,
+				D45181C227AD98D2007C700B /* Data.framework in Embed Frameworks */,
+				D45181DA27AD9997007C700B /* CommonExtensions.framework in Embed Frameworks */,
+				D451821C27AD9AFD007C700B /* Utilities.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14670A0FABC06DDB290701F5 /* Pods_onekyat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onekyat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5AEFC0BCDA932EE69D4D02 /* Pods-onekyat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekyat.release.xcconfig"; path = "Target Support Files/Pods-onekyat/Pods-onekyat.release.xcconfig"; sourceTree = "<group>"; };
+		B5A2AFE5468D8F6F27BD3CB6 /* Pods-onekyat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekyat.debug.xcconfig"; path = "Target Support Files/Pods-onekyat/Pods-onekyat.debug.xcconfig"; sourceTree = "<group>"; };
+		D451819527AD6213007C700B /* onekyat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onekyat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D451819827AD6213007C700B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D451819C27AD6213007C700B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D451819F27AD6213007C700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45181A127AD6215007C700B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45181A427AD6215007C700B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45181A627AD6215007C700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45181C027AD98D2007C700B /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45181D827AD9996007C700B /* CommonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D451821727AD9AF7007C700B /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D451821A27AD9AFD007C700B /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D451819227AD6213007C700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D451821B27AD9AFD007C700B /* Utilities.framework in Frameworks */,
+				D45181D927AD9997007C700B /* CommonExtensions.framework in Frameworks */,
+				D451821827AD9AF7007C700B /* CommonUI.framework in Frameworks */,
+				D45181C127AD98D2007C700B /* Data.framework in Frameworks */,
+				A1D29211D14F6264F6337167 /* Pods_onekyat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE089122982BFF4D15A8F3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5A2AFE5468D8F6F27BD3CB6 /* Pods-onekyat.debug.xcconfig */,
+				7C5AEFC0BCDA932EE69D4D02 /* Pods-onekyat.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		B8085A941948A479B8F70EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D451821A27AD9AFD007C700B /* Utilities.framework */,
+				D451821727AD9AF7007C700B /* CommonUI.framework */,
+				D45181D827AD9996007C700B /* CommonExtensions.framework */,
+				D45181C027AD98D2007C700B /* Data.framework */,
+				14670A0FABC06DDB290701F5 /* Pods_onekyat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D451818C27AD6213007C700B = {
+			isa = PBXGroup;
+			children = (
+				D451819727AD6213007C700B /* onekyat */,
+				D451819627AD6213007C700B /* Products */,
+				3AE089122982BFF4D15A8F3A /* Pods */,
+				B8085A941948A479B8F70EBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D451819627AD6213007C700B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D451819527AD6213007C700B /* onekyat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D451819727AD6213007C700B /* onekyat */ = {
+			isa = PBXGroup;
+			children = (
+				D451819827AD6213007C700B /* AppDelegate.swift */,
+				D451819C27AD6213007C700B /* ViewController.swift */,
+				D451819E27AD6213007C700B /* Main.storyboard */,
+				D45181A127AD6215007C700B /* Assets.xcassets */,
+				D45181A327AD6215007C700B /* LaunchScreen.storyboard */,
+				D45181A627AD6215007C700B /* Info.plist */,
+			);
+			path = onekyat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D451819427AD6213007C700B /* onekyat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45181A927AD6215007C700B /* Build configuration list for PBXNativeTarget "onekyat" */;
+			buildPhases = (
+				B0B861AB56BAA5639E2B04C2 /* [CP] Check Pods Manifest.lock */,
+				D451819127AD6213007C700B /* Sources */,
+				D451819227AD6213007C700B /* Frameworks */,
+				D451819327AD6213007C700B /* Resources */,
+				6BAB7D42DC6D3BEA28C6E78A /* [CP] Embed Pods Frameworks */,
+				D45181C327AD98D2007C700B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onekyat;
+			productName = onekyat;
+			productReference = D451819527AD6213007C700B /* onekyat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D451818D27AD6213007C700B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D451819427AD6213007C700B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D451819027AD6213007C700B /* Build configuration list for PBXProject "onekyat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D451818C27AD6213007C700B;
+			productRefGroup = D451819627AD6213007C700B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D451819427AD6213007C700B /* onekyat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D451819327AD6213007C700B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45181A527AD6215007C700B /* LaunchScreen.storyboard in Resources */,
+				D45181A227AD6215007C700B /* Assets.xcassets in Resources */,
+				D45181A027AD6213007C700B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BAB7D42DC6D3BEA28C6E78A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onekyat/Pods-onekyat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onekyat/Pods-onekyat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onekyat/Pods-onekyat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B861AB56BAA5639E2B04C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onekyat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D451819127AD6213007C700B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D451819D27AD6213007C700B /* ViewController.swift in Sources */,
+				D451819927AD6213007C700B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D451819E27AD6213007C700B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D451819F27AD6213007C700B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45181A327AD6215007C700B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45181A427AD6215007C700B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45181A727AD6215007C700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D45181A827AD6215007C700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45181AA27AD6215007C700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A2AFE5468D8F6F27BD3CB6 /* Pods-onekyat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onekyat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "One Kyat";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.onekyat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D45181AB27AD6215007C700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5AEFC0BCDA932EE69D4D02 /* Pods-onekyat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onekyat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "One Kyat";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.onekyat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D451819027AD6213007C700B /* Build configuration list for PBXProject "onekyat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45181A727AD6215007C700B /* Debug */,
+				D45181A827AD6215007C700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45181A927AD6215007C700B /* Build configuration list for PBXNativeTarget "onekyat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45181AA27AD6215007C700B /* Debug */,
+				D45181AB27AD6215007C700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D451818D27AD6213007C700B /* Project object */;
+}
