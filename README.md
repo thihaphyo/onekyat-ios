@@ -8,11 +8,13 @@
 # Product Name
 <br />
 <p align="center">
-  <a href="https://github.com/alexanderritik/Best-README-Template">
-    <img src="logo.jpeg" alt="Logo" width="80" height="80">
+  <a href="https://www.onekyat.com">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
-  <p align="center">
-    One to two paragraph statement about your product and what it does.
+  <p align="left">
+    Code test application for Senior ios developer position at One Kyat.
+    The app will be consists of login, product listing and product details.
+    The app will be developed with swift Reactive MVVM architecture.
   </p>
 </p>
 
@@ -23,11 +25,10 @@
 
 ## Features
 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-- [x] Feature 4
-- [x] Feature 5
+- [x] Login
+- [x] Product Listing
+- [x] Product Details
+- [x] Local Persistance Laayer
 
 ## Requirements
 
@@ -37,50 +38,25 @@
 ## Installation
 
 #### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `YourLibrary` by adding it to your `Podfile`:
+You can use [CocoaPods](http://cocoapods.org/) to install the third party libraries from `Podfile`:
 
 ```ruby
-platform :ios, '8.0'
-use_frameworks!
-pod 'YourLibrary'
+pod install
 ```
-
-To get the full benefits import `YourLibrary` wherever you import UIKit
-
-``` swift
-import UIKit
-import YourLibrary
 ```
-#### Carthage
-Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/YourLibrary.framework` to an iOS project.
-
-```
-github "yourUsername/yourlibrary"
-```
-#### Manually
-1. Download and drop ```YourLibrary.swift``` in your project.  
-2. Congratulations!  
-
 ## Usage example
-
-```swift
-import EZSwiftExtensions
-ez.detectScreenShot { () -> () in
-    print("User took a screen shot")
-}
+Step 1 - Clone from Master branch
+Step 2 - pod install
+Step 3 - Run on simulator
 ```
-
-## Contribute
-
-We would love you for the contribution to **YourLibraryName**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Phyo Thiha – phyothiha968@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[My Github](https://github.com/thihaphyo/)
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
