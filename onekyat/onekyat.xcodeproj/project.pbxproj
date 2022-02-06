@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A1D29211D14F6264F6337167 /* Pods_onekyat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14670A0FABC06DDB290701F5 /* Pods_onekyat.framework */; };
+		D405556E27AF824E00306FD6 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405556D27AF824E00306FD6 /* TabbarVC.swift */; };
+		D405557027AF834C00306FD6 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D405556F27AF834C00306FD6 /* Auth.storyboard */; };
 		D451819927AD6213007C700B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451819827AD6213007C700B /* AppDelegate.swift */; };
 		D451819D27AD6213007C700B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451819C27AD6213007C700B /* ViewController.swift */; };
 		D45181A027AD6213007C700B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D451819E27AD6213007C700B /* Main.storyboard */; };
@@ -21,6 +23,11 @@
 		D451821927AD9AF7007C700B /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D451821727AD9AF7007C700B /* CommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D451821B27AD9AFD007C700B /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D451821A27AD9AFD007C700B /* Utilities.framework */; };
 		D451821C27AD9AFD007C700B /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D451821A27AD9AFD007C700B /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D48DF43C27AF83F00041CA2A /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF43B27AF83F00041CA2A /* SplashVC.swift */; };
+		D48DF43F27AF84730041CA2A /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF43E27AF84730041CA2A /* SplashVM.swift */; };
+		D48DF44327AF86B10041CA2A /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF44227AF86B10041CA2A /* AppEnvironment.swift */; };
+		D48DF48027AF9D5C0041CA2A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF47F27AF9D5C0041CA2A /* LoginVC.swift */; };
+		D48DF48627AFAB6A0041CA2A /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF48527AFAB6A0041CA2A /* LoginVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +51,8 @@
 		14670A0FABC06DDB290701F5 /* Pods_onekyat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onekyat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5AEFC0BCDA932EE69D4D02 /* Pods-onekyat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekyat.release.xcconfig"; path = "Target Support Files/Pods-onekyat/Pods-onekyat.release.xcconfig"; sourceTree = "<group>"; };
 		B5A2AFE5468D8F6F27BD3CB6 /* Pods-onekyat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekyat.debug.xcconfig"; path = "Target Support Files/Pods-onekyat/Pods-onekyat.debug.xcconfig"; sourceTree = "<group>"; };
+		D405556D27AF824E00306FD6 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		D405556F27AF834C00306FD6 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		D451819527AD6213007C700B /* onekyat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onekyat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D451819827AD6213007C700B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D451819C27AD6213007C700B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +64,11 @@
 		D45181D827AD9996007C700B /* CommonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D451821727AD9AF7007C700B /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D451821A27AD9AFD007C700B /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48DF43B27AF83F00041CA2A /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		D48DF43E27AF84730041CA2A /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		D48DF44227AF86B10041CA2A /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		D48DF47F27AF9D5C0041CA2A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D48DF48527AFAB6A0041CA2A /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D405556B27AF821200306FD6 /* Scences */ = {
+			isa = PBXGroup;
+			children = (
+				D48DF47E27AF9D470041CA2A /* Auth */,
+				D48DF43D27AF84130041CA2A /* Splash */,
+				D451819C27AD6213007C700B /* ViewController.swift */,
+			);
+			path = Scences;
+			sourceTree = "<group>";
+		};
+		D405556C27AF821D00306FD6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D451819E27AD6213007C700B /* Main.storyboard */,
+				D405556F27AF834C00306FD6 /* Auth.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		D451818C27AD6213007C700B = {
 			isa = PBXGroup;
 			children = (
@@ -116,14 +149,34 @@
 		D451819727AD6213007C700B /* onekyat */ = {
 			isa = PBXGroup;
 			children = (
+				D405556C27AF821D00306FD6 /* Storyboards */,
+				D405556B27AF821200306FD6 /* Scences */,
 				D451819827AD6213007C700B /* AppDelegate.swift */,
-				D451819C27AD6213007C700B /* ViewController.swift */,
-				D451819E27AD6213007C700B /* Main.storyboard */,
 				D45181A127AD6215007C700B /* Assets.xcassets */,
 				D45181A327AD6215007C700B /* LaunchScreen.storyboard */,
 				D45181A627AD6215007C700B /* Info.plist */,
+				D405556D27AF824E00306FD6 /* TabbarVC.swift */,
+				D48DF44227AF86B10041CA2A /* AppEnvironment.swift */,
 			);
 			path = onekyat;
+			sourceTree = "<group>";
+		};
+		D48DF43D27AF84130041CA2A /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D48DF43B27AF83F00041CA2A /* SplashVC.swift */,
+				D48DF43E27AF84730041CA2A /* SplashVM.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		D48DF47E27AF9D470041CA2A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D48DF47F27AF9D5C0041CA2A /* LoginVC.swift */,
+				D48DF48527AFAB6A0041CA2A /* LoginVM.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D405557027AF834C00306FD6 /* Auth.storyboard in Resources */,
 				D45181A527AD6215007C700B /* LaunchScreen.storyboard in Resources */,
 				D45181A227AD6215007C700B /* Assets.xcassets in Resources */,
 				D45181A027AD6213007C700B /* Main.storyboard in Resources */,
@@ -243,7 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D451819D27AD6213007C700B /* ViewController.swift in Sources */,
+				D48DF43F27AF84730041CA2A /* SplashVM.swift in Sources */,
+				D48DF48027AF9D5C0041CA2A /* LoginVC.swift in Sources */,
+				D48DF43C27AF83F00041CA2A /* SplashVC.swift in Sources */,
+				D48DF48627AFAB6A0041CA2A /* LoginVM.swift in Sources */,
 				D451819927AD6213007C700B /* AppDelegate.swift in Sources */,
+				D405556E27AF824E00306FD6 /* TabbarVC.swift in Sources */,
+				D48DF44327AF86B10041CA2A /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

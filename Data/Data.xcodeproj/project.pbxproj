@@ -13,6 +13,8 @@
 		D45181DD27AD99B5007C700B /* CommonExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45181DB27AD99B5007C700B /* CommonExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D45181F927AD9A4E007C700B /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45181F827AD9A4E007C700B /* Utilities.framework */; };
 		D45181FA27AD9A4E007C700B /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45181F827AD9A4E007C700B /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D48DF44727AF87110041CA2A /* KeyValueClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF44627AF87110041CA2A /* KeyValueClient.swift */; };
+		D48DF48D27AFADDE0041CA2A /* LoginReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF48C27AFADDE0041CA2A /* LoginReq.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,8 @@
 		D45181B927AD9876007C700B /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		D45181DB27AD99B5007C700B /* CommonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45181F827AD9A4E007C700B /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48DF44627AF87110041CA2A /* KeyValueClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueClient.swift; sourceTree = "<group>"; };
+		D48DF48C27AFADDE0041CA2A /* LoginReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReq.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +89,27 @@
 		D45181B827AD9876007C700B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D48DF48B27AFADD50041CA2A /* Models */,
+				D48DF44527AF87020041CA2A /* Clients */,
 				D45181B927AD9876007C700B /* Data.h */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		D48DF44527AF87020041CA2A /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				D48DF44627AF87110041CA2A /* KeyValueClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		D48DF48B27AFADD50041CA2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D48DF48C27AFADDE0041CA2A /* LoginReq.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D50EEA25B8630A6AD09348FD /* Frameworks */ = {
@@ -145,6 +167,7 @@
 				TargetAttributes = {
 					D45181B527AD9876007C700B = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -206,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48DF48D27AFADDE0041CA2A /* LoginReq.swift in Sources */,
+				D48DF44727AF87110041CA2A /* KeyValueClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5B74F68899D2B0CB7D20BFC /* Pods-Data.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -359,6 +385,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -368,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C45E0D86062E88F02CCC208 /* Pods-Data.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

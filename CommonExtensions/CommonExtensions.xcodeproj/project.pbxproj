@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0716384B44D983DC3B88536C /* Pods_CommonExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E42CC93EE473E44090AD8C8 /* Pods_CommonExtensions.framework */; };
 		D45181D227AD9954007C700B /* CommonExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D45181D127AD9954007C700B /* CommonExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48DF45027AF93DC0041CA2A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF44F27AF93DC0041CA2A /* UIViewController.swift */; };
+		D48DF45227AF942D0041CA2A /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF45127AF942D0041CA2A /* Optional.swift */; };
+		D48DF48227AF9E860041CA2A /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF48127AF9E860041CA2A /* UIStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +20,9 @@
 		990A8AEB1D2587BD37B8032E /* Pods-CommonExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonExtensions.release.xcconfig"; path = "Target Support Files/Pods-CommonExtensions/Pods-CommonExtensions.release.xcconfig"; sourceTree = "<group>"; };
 		D45181CE27AD9954007C700B /* CommonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45181D127AD9954007C700B /* CommonExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonExtensions.h; sourceTree = "<group>"; };
+		D48DF44F27AF93DC0041CA2A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D48DF45127AF942D0041CA2A /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		D48DF48127AF9E860041CA2A /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				D45181D127AD9954007C700B /* CommonExtensions.h */,
+				D48DF44F27AF93DC0041CA2A /* UIViewController.swift */,
+				D48DF45127AF942D0041CA2A /* Optional.swift */,
+				D48DF48127AF9E860041CA2A /* UIStoryboard.swift */,
 			);
 			path = CommonExtensions;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 				TargetAttributes = {
 					D45181CD27AD9954007C700B = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -180,6 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48DF48227AF9E860041CA2A /* UIStoryboard.swift in Sources */,
+				D48DF45027AF93DC0041CA2A /* UIViewController.swift in Sources */,
+				D48DF45227AF942D0041CA2A /* Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3531AA792CDBA3DB258BBC82 /* Pods-CommonExtensions.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -333,6 +347,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -342,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 990A8AEB1D2587BD37B8032E /* Pods-CommonExtensions.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

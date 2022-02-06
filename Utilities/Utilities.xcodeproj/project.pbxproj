@@ -11,6 +11,14 @@
 		D45181ED27AD9A34007C700B /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D45181EC27AD9A34007C700B /* Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D45181F527AD9A44007C700B /* CommonExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45181F427AD9A44007C700B /* CommonExtensions.framework */; };
 		D45181F627AD9A44007C700B /* CommonExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45181F427AD9A44007C700B /* CommonExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D48DF44127AF86490041CA2A /* RxSwift+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF44027AF86490041CA2A /* RxSwift+Ext.swift */; };
+		D48DF44927AF8A210041CA2A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF44827AF8A210041CA2A /* UIViewController.swift */; };
+		D48DF45627AF9A130041CA2A /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF45527AF9A130041CA2A /* Functions.swift */; };
+		D48DF47927AF9BC30041CA2A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF47827AF9BC30041CA2A /* Styles.swift */; };
+		D48DF47D27AF9CA20041CA2A /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF47C27AF9CA20041CA2A /* UITableView.swift */; };
+		D48DF48427AFA9D60041CA2A /* MMPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF48327AFA9D60041CA2A /* MMPhone.swift */; };
+		D48DF48827AFACA40041CA2A /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF48727AFACA40041CA2A /* Validations.swift */; };
+		D48DF48A27AFACC20041CA2A /* ValidationRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF48927AFACC20041CA2A /* ValidationRules.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +42,14 @@
 		D45181E927AD9A34007C700B /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45181EC27AD9A34007C700B /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		D45181F427AD9A44007C700B /* CommonExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48DF44027AF86490041CA2A /* RxSwift+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Ext.swift"; sourceTree = "<group>"; };
+		D48DF44827AF8A210041CA2A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D48DF45527AF9A130041CA2A /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		D48DF47827AF9BC30041CA2A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		D48DF47C27AF9CA20041CA2A /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		D48DF48327AFA9D60041CA2A /* MMPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMPhone.swift; sourceTree = "<group>"; };
+		D48DF48727AFACA40041CA2A /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		D48DF48927AFACC20041CA2A /* ValidationRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRules.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,14 @@
 			isa = PBXGroup;
 			children = (
 				D45181EC27AD9A34007C700B /* Utilities.h */,
+				D48DF44027AF86490041CA2A /* RxSwift+Ext.swift */,
+				D48DF44827AF8A210041CA2A /* UIViewController.swift */,
+				D48DF45527AF9A130041CA2A /* Functions.swift */,
+				D48DF47827AF9BC30041CA2A /* Styles.swift */,
+				D48DF47C27AF9CA20041CA2A /* UITableView.swift */,
+				D48DF48327AFA9D60041CA2A /* MMPhone.swift */,
+				D48DF48727AFACA40041CA2A /* Validations.swift */,
+				D48DF48927AFACC20041CA2A /* ValidationRules.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -139,6 +163,7 @@
 				TargetAttributes = {
 					D45181E827AD9A34007C700B = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -200,6 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48DF44927AF8A210041CA2A /* UIViewController.swift in Sources */,
+				D48DF44127AF86490041CA2A /* RxSwift+Ext.swift in Sources */,
+				D48DF48427AFA9D60041CA2A /* MMPhone.swift in Sources */,
+				D48DF47D27AF9CA20041CA2A /* UITableView.swift in Sources */,
+				D48DF45627AF9A130041CA2A /* Functions.swift in Sources */,
+				D48DF47927AF9BC30041CA2A /* Styles.swift in Sources */,
+				D48DF48A27AFACC20041CA2A /* ValidationRules.swift in Sources */,
+				D48DF48827AFACA40041CA2A /* Validations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6219B714C88E67A7F81484F4 /* Pods-Utilities.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -353,6 +387,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -362,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54B946B2CAA0018E48F11FFA /* Pods-Utilities.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

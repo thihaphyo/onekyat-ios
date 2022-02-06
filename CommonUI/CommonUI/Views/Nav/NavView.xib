@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PTSans.ttc">
+            <string>PTSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavView" customModule="CommonUI" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="eCM-l7-WFx" id="Rdf-rD-4mK"/>
+                <outlet property="btnFav" destination="UIe-eh-4D7" id="eH8-cE-Ayy"/>
+                <outlet property="btnRightAction" destination="zNx-f6-iYT" id="Q5o-yH-cFq"/>
+                <outlet property="btnRightAction2" destination="IhC-RT-5YL" id="gcm-Cv-DtY"/>
+                <outlet property="btnShare" destination="m4s-tn-PCK" id="uIh-gy-eLj"/>
+                <outlet property="container" destination="Pg2-xV-3Ye" id="kgj-Uo-B1h"/>
+                <outlet property="lblTitle" destination="YVS-qg-pZH" id="g0D-nu-ZkS"/>
+                <outlet property="leftPadding" destination="Sut-JH-CDn" id="VLp-I7-GiX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pg2-xV-3Ye">
+                    <rect key="frame" x="0.0" y="0.0" width="409" height="84"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l3l-co-HQr">
+                            <rect key="frame" x="350" y="48" width="39" height="0.0"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ILy-4f-G4M">
+                                    <rect key="frame" x="0.0" y="0.0" width="39" height="0.0"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNx-f6-iYT">
+                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="29"/>
+                                            <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="14"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhC-RT-5YL">
+                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="29"/>
+                                            <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="14"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="nsX-Ky-Jhg">
+                                    <rect key="frame" x="0.0" y="0.0" width="39" height="0.0"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIe-eh-4D7">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="5G1-9k-WW4"/>
+                                                <constraint firstAttribute="width" constant="20" id="ctb-fs-qgg"/>
+                                            </constraints>
+                                            <state key="normal" image="heart.empty"/>
+                                        </button>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4s-tn-PCK">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="GhS-e8-PpC"/>
+                                                <constraint firstAttribute="height" constant="20" id="qfM-zR-WbW"/>
+                                            </constraints>
+                                            <state key="normal" image="share"/>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="TiN-4D-zXC">
+                            <rect key="frame" x="10" y="32" width="330" height="32"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCM-l7-WFx">
+                                    <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="32" id="LhI-CM-cZx"/>
+                                        <constraint firstAttribute="height" constant="32" id="pIf-9k-OhK"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" image="ico.nav.back"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="YVS-qg-pZH">
+                                    <rect key="frame" x="37" y="0.0" width="293" height="32"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="l3l-co-HQr" secondAttribute="trailing" constant="20" id="1QC-Fe-yJs"/>
+                        <constraint firstItem="l3l-co-HQr" firstAttribute="centerY" secondItem="TiN-4D-zXC" secondAttribute="centerY" id="D3P-mC-PRu"/>
+                        <constraint firstAttribute="bottom" secondItem="TiN-4D-zXC" secondAttribute="bottom" constant="20" id="NBu-Wu-WLC"/>
+                        <constraint firstItem="TiN-4D-zXC" firstAttribute="leading" secondItem="Pg2-xV-3Ye" secondAttribute="leading" constant="10" id="Sut-JH-CDn"/>
+                        <constraint firstItem="l3l-co-HQr" firstAttribute="leading" secondItem="TiN-4D-zXC" secondAttribute="trailing" constant="10" id="uWt-bP-eep"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Pg2-xV-3Ye" secondAttribute="trailing" id="1z0-GK-OWe"/>
+                <constraint firstItem="Pg2-xV-3Ye" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kya-yS-aTr"/>
+                <constraint firstItem="Pg2-xV-3Ye" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="TMy-s0-7ac"/>
+                <constraint firstAttribute="bottom" secondItem="Pg2-xV-3Ye" secondAttribute="bottom" id="prA-xR-YrJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="109.42028985507247" y="381.69642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="heart.empty" width="24" height="24"/>
+        <image name="ico.nav.back" width="8" height="12"/>
+        <image name="share" width="24" height="24"/>
+    </resources>
+</document>
