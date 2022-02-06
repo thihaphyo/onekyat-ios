@@ -25,7 +25,7 @@ class LoginVC: BaseVC, Storyboarded {
     @IBOutlet weak var ivPasswordBorder: UIView!
     @IBOutlet weak var tfPassword: UITextField!
     @IBOutlet weak var btnLogin: Button!
-    @IBOutlet weak var lblTerms: UILabel!
+    @IBOutlet weak var lblTerms: LabelHyperLink!
     @IBOutlet weak var ivChk: UIImageView!
     @IBOutlet weak var btnTerms: UIButton!
     
@@ -58,14 +58,23 @@ class LoginVC: BaseVC, Storyboarded {
         ivChk.image = .load(named: "checkbox.off")
         
         lblTerms.font = Styles.n12()
-        lblTerms |> colorCodedStyle(baseColor: .black,
-                                    codedColor: .blue,
-                                    "Terms & Conditions",
-                                    baseFont: Styles.n12(), codedFont: Styles.n12())
         
         tfPhone.becomeFirstResponder()
         
         btnLogin.isEnabled = false
+        
+        lblTerms.isUserInteractionEnabled = true
+        lblTerms.setHyperLink(fullText: "Agree to our Terms & Conditions",
+                              hyperLinkText: ["Terms & Conditions"],
+                              urlString: ["https://www.onekyat.com"],
+                              textColor: .black,
+                              hyperLinkColor: .blue,
+                              textFont:  Styles.n12(),
+                              linkFont:  Styles.n12(),
+                              underLineForLink: false,
+                              textAlign: .left,
+                              delegate: self)
+        
         
     }
     
@@ -84,7 +93,7 @@ class LoginVC: BaseVC, Storyboarded {
         
         let form = Observable
             .combineLatest(phone, tfPassword.rx.text.orEmpty, isTermsChecked.asObservable())
-                .skip(1)
+                .skip(2)
                 .map(LoginVM.FormInput.init)
                 
                 
@@ -153,6 +162,13 @@ class LoginVC: BaseVC, Storyboarded {
         }
     }
     
+}
+
+extension LoginVC: LabelHyperLinkProtocol {
+    
+    func  labelHyperLink(onTappedUrlInLabel: String) {
+        self.openURL(onTappedUrlInLabel)
+    }
 }
 
 extension Reactive where Base: LoginVC {

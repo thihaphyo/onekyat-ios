@@ -34,6 +34,7 @@
 		D48DF47527AF9AD10041CA2A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF47427AF9AD10041CA2A /* Styles.swift */; };
 		D48DF47727AF9B2A0041CA2A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF47627AF9B2A0041CA2A /* Color.swift */; };
 		D48DF47B27AF9C310041CA2A /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF47A27AF9C310041CA2A /* Button.swift */; };
+		D48DF49127AFE39E0041CA2A /* LabelHyperLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DF49027AFE39E0041CA2A /* LabelHyperLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		D48DF47427AF9AD10041CA2A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		D48DF47627AF9B2A0041CA2A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D48DF47A27AF9C310041CA2A /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		D48DF49027AFE39E0041CA2A /* LabelHyperLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelHyperLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				D48DF44A27AF93320041CA2A /* Nav */,
 				D48DF47A27AF9C310041CA2A /* Button.swift */,
+				D48DF49027AFE39E0041CA2A /* LabelHyperLink.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				D451822427AD9CBD007C700B /* BaseVC.swift in Sources */,
 				D48DF47727AF9B2A0041CA2A /* Color.swift in Sources */,
 				D48DF47527AF9AD10041CA2A /* Styles.swift in Sources */,
+				D48DF49127AFE39E0041CA2A /* LabelHyperLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
